@@ -10,12 +10,18 @@ Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+map_Ka baked-lambert4SG-Spawn_Bar1.jpg
+map_Kd baked-lambert4SG-Spawn_Bar1.jpg
+
 newmtl baked_lambert5SG_Spawn_Bar1SG
 illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
+map_Ka baked-lambert5SG-Spawn_Bar1.jpg
+map_Kd baked-lambert5SG-Spawn_Bar1.jpg
+
 newmtl baked_lambert7SG_Spawn_Symbol1SG
 illum 4
 Kd 0.00 0.00 0.00
