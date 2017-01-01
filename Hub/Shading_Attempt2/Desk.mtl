@@ -1,9 +1,3 @@
-newmtl baked_lambert2SG_Main_CylinderSG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
 newmtl baked_lambert4SG_Spawn_Bar1SG
 illum 4
 Kd 0.00 0.00 0.00
@@ -22,30 +16,6 @@ Ni 1.00
 map_Ka baked-lambert5SG-Spawn_Bar1.jpg
 map_Kd baked-lambert5SG-Spawn_Bar1.jpg
 
-newmtl baked_lambert7SG_Spawn_Symbol1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl baked_lambert7SG_Spawn_Symbol2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl baked_lambert7SG_Spawn_Symbol3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl baked_lambert8SG_pPyramid1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
 newmtl initialShadingGroup
 illum 4
 Kd 0.43 0.43 0.43
