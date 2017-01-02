@@ -1,6 +1,6 @@
 # This file uses centimeters as units for non-parametric coordinates.
 
-mtllib Test_Cube.mtl
+mtllib Cueb.mtl
 g default
 v -5.826936 -5.826936 5.826936
 v 5.826936 -5.826936 5.826936
