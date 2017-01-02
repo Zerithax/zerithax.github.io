@@ -5,63 +5,9 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 map_Kd Baked_Desk.png
 Ni 1.00
-newmtl baked_lambert5SG_polySurface4SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_DeskBar.png
-Ni 1.00
-newmtl baked_lambert30SG_Main_CylinderSG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_Room.png
-Ni 1.00
-newmtl baked_lambert32SG_pPyramid1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_Ceiling.png
-Ni 1.00
-newmtl baked_lambert34SG_Spawn_Symbol2SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_Logo.png
-Ni 1.00
-newmtl baked_lambert38SG_Spawn_Symbol3SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_Logo.png
-Ni 1.00
 newmtl initialShadingGroup
 illum 4
 Kd 0.43 0.43 0.43
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert4SG
-illum 4
-Kd 0.12 0.12 0.12
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert5SG
-illum 4
-Kd 0.12 0.12 0.12
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert36SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-map_Kd Baked_Logo.png
 Ni 1.00
