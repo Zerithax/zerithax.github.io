@@ -1,10 +1,10 @@
 # Blender MTL File: 'Hub.blend'
 # Material Count: 1
 
-newmtl Material.004
+newmtl Material
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
-Kd 0.300250 0.272571 0.272571
+Kd 0.640000 0.640000 0.640000
 Ks 0.500000 0.500000 0.500000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
