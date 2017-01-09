@@ -1,6 +1,6 @@
 # Blender v2.78 (sub 0) OBJ File: 'Hub.blend'
 # www.blender.org
-mtllib Room.mtl
+mtllib RoomFixed.mtl
 o Cylinder.001_Cylinder
 v 0.000000 0.000000 0.000000
 v 0.000000 2.000000 0.000000
