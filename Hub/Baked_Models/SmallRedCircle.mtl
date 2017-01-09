@@ -1,0 +1,13 @@
+# Blender MTL File: 'Hub.blend'
+# Material Count: 1
+
+newmtl GlowingRingSmall
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.457525 0.029318 0.066993
+Ks 0.000000 0.000000 0.000000
+Ke 1.372576 0.087954 0.200978
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd SmallLightCircleUnwrapped.png
