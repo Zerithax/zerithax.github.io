@@ -1,6 +1,6 @@
 # Blender v2.78 (sub 0) OBJ File: 'Hub With Elevator.blend'
 # www.blender.org
-mtllib ElevatorOff.mtl
+mtllib ElevatorOn.mtl
 o Combined_Mesh_(root:_scene)
 v -1.105758 0.190894 -0.063706
 v -1.105758 0.191439 0.065544
