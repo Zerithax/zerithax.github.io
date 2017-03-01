@@ -1976,45 +1976,7 @@
         "KHR_materials_common"
     ],
     "materials": {
-        "material_wire_135059008": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            0.2640526592731476,
-                            0.2640526592731476,
-                            0.2640526592731476,
-                            1.0
-                        ],
-                        "diffuse": [
-                            0.5294119715690613,
-                            0.23137299716472626,
-                            0.031373001635074615,
-                            1.0
-                        ],
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 17,
-                        "specular": [
-                            0.3499999940395355,
-                            0.3499999940395355,
-                            0.3499999940395355,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": true
-                    }
-                }
-            },
-            "name": "wire_135059008"
-        },
-        "material_wire_177088027": {
+        "material_Inner_Speaker": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -2050,7 +2012,83 @@
                     }
                 }
             },
-            "name": "wire_177088027"
+            "name": "Inner_Speaker"
+        },
+        "material_Metal_Panels": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            0.2640526592731476,
+                            0.2640526592731476,
+                            0.2640526592731476,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.5294119715690613,
+                            0.23137299716472626,
+                            0.031373001635074615,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 17,
+                        "specular": [
+                            0.3499999940395355,
+                            0.3499999940395355,
+                            0.3499999940395355,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": true
+                    }
+                }
+            },
+            "name": "Metal_Panels"
+        },
+        "material_Rotors": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            0.2640526592731476,
+                            0.2640526592731476,
+                            0.2640526592731476,
+                            1.0
+                        ],
+                        "diffuse": [
+                            0.5294119715690613,
+                            0.23137299716472626,
+                            0.031373001635074615,
+                            1.0
+                        ],
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 17,
+                        "specular": [
+                            0.3499999940395355,
+                            0.3499999940395355,
+                            0.3499999940395355,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": true
+                    }
+                }
+            },
+            "name": "Rotors"
         }
     },
     "meshes": {
@@ -2064,7 +2102,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object08_2"
                     },
                     "indices": "accessor_buffer_Object08_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2079,7 +2117,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object10_2"
                     },
                     "indices": "accessor_buffer_Object10_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Rotors",
                     "mode": 4
                 }
             ]
@@ -2094,7 +2132,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object11_2"
                     },
                     "indices": "accessor_buffer_Object11_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2109,7 +2147,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object12_2"
                     },
                     "indices": "accessor_buffer_Object12_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2124,7 +2162,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object13_2"
                     },
                     "indices": "accessor_buffer_Object13_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2139,7 +2177,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object14_2"
                     },
                     "indices": "accessor_buffer_Object14_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2154,7 +2192,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object15_2"
                     },
                     "indices": "accessor_buffer_Object15_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2169,7 +2207,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object17_2"
                     },
                     "indices": "accessor_buffer_Object17_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2184,7 +2222,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object18_2"
                     },
                     "indices": "accessor_buffer_Object18_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Rotors",
                     "mode": 4
                 }
             ]
@@ -2199,7 +2237,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object20_2"
                     },
                     "indices": "accessor_buffer_Object20_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2214,7 +2252,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object21_2"
                     },
                     "indices": "accessor_buffer_Object21_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Rotors",
                     "mode": 4
                 }
             ]
@@ -2229,7 +2267,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object23_2"
                     },
                     "indices": "accessor_buffer_Object23_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2244,7 +2282,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object24_2"
                     },
                     "indices": "accessor_buffer_Object24_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Rotors",
                     "mode": 4
                 }
             ]
@@ -2259,7 +2297,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object26_2"
                     },
                     "indices": "accessor_buffer_Object26_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2274,7 +2312,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object27_2"
                     },
                     "indices": "accessor_buffer_Object27_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Rotors",
                     "mode": 4
                 }
             ]
@@ -2289,7 +2327,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object28_2"
                     },
                     "indices": "accessor_buffer_Object28_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2304,7 +2342,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object29_2"
                     },
                     "indices": "accessor_buffer_Object29_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2319,7 +2357,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object30_2"
                     },
                     "indices": "accessor_buffer_Object30_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2334,7 +2372,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object31_2"
                     },
                     "indices": "accessor_buffer_Object31_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2349,7 +2387,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object33_2"
                     },
                     "indices": "accessor_buffer_Object33_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
@@ -2364,7 +2402,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object47_2"
                     },
                     "indices": "accessor_buffer_Object47_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2379,7 +2417,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object48_2"
                     },
                     "indices": "accessor_buffer_Object48_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2394,7 +2432,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object50_2"
                     },
                     "indices": "accessor_buffer_Object50_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2409,7 +2447,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object51_2"
                     },
                     "indices": "accessor_buffer_Object51_3",
-                    "material": "material_wire_177088027",
+                    "material": "material_Inner_Speaker",
                     "mode": 4
                 }
             ]
@@ -2424,7 +2462,7 @@
                         "TEXCOORD_0": "accessor_buffer_Object52_2"
                     },
                     "indices": "accessor_buffer_Object52_3",
-                    "material": "material_wire_135059008",
+                    "material": "material_Metal_Panels",
                     "mode": 4
                 }
             ]
