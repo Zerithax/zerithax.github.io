@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Cube.016_0": {
+            "bufferView": "bufferView_buffer_Cube.016_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.016_1": {
+            "bufferView": "bufferView_buffer_Cube.016_0",
+            "byteOffset": 288,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.016_2": {
+            "bufferView": "bufferView_buffer_Cube.016_0",
+            "byteOffset": 576,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                5.960464477539063e-08
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cube.016_3": {
+            "bufferView": "bufferView_buffer_Cube.016_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cube.016_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 768,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cube.016_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 72,
+            "byteOffset": 768,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 840,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIC/AACAPwAAgL8AAIC/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAPwAAgL8AAIA/AACAvwAAgL8AAIA/AACAPwAAgD8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAgL8AAIA/AACAPwAAgL8AAIC/AACAvwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgD8AAIC/AACAPwAAgL8AAIC/AACAPwAAgL8AAIA/AACAPwAAgD8AAIC/AACAvwAAgL8AAIC/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAKqqKj+pqqo+qqoqP6uqqj6sqqo+qaoKNKqqKj+rqio/AACAP6qqqj4AAIA/qKoqM6qqqj6pqqo+AACAMwAAAACoqqo+q6oqP6qqKj+oqqo+qqqqPqyqKj+sqio/raqqPqqqKj9SVVUzAACAM6yqKj8AAIA/raqqPv//fz+vqqo+q6oqPwAAgD+sqio/AACAPwAAgD+sqio/rKoqP6+qqj6sqqo+AAAAAP//fz+tqqo+rKoqP6yqKj+sqqo+BAALABAABAAQAA8AAQACAAYAAQAGAAAABQAWAAMABQADABUAFwAUAAwAFwAMAAkAEgARABMAEgATAA4ACAAKAAcACAAHAA0A"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_Hall_Ceiling": {
+            "uri": "Hall_Ceiling.png"
+        }
+    },
+    "materials": {
+        "material_Hall_Ceiling": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Hall_Ceiling",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Hall_Ceiling"
+        }
+    },
+    "meshes": {
+        "mesh_Cube.016": {
+            "name": "Cube.016",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cube.016_1",
+                        "POSITION": "accessor_buffer_Cube.016_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.016_2"
+                    },
+                    "indices": "accessor_buffer_Cube.016_3",
+                    "material": "material_Hall_Ceiling",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Cube.016": {
+            "children": [],
+            "matrix": [
+                0.9543314576148987,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                2.9237496852874756,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.10000000149011612,
+                0.0,
+                -3.474597454071045,
+                -7.878550052642822,
+                2.3962044715881348,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cube.016"
+            ],
+            "name": "Cube.016"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_Cube.016"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Hall_Ceiling": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Hall_Ceiling"
+        }
+    }
+}

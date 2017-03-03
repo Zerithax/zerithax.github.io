@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Cylinder_0": {
+            "bufferView": "bufferView_buffer_Cylinder_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 68,
+            "max": [
+                0,
+                0.6665472984313965,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -0.7427754402160645,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder_1": {
+            "bufferView": "bufferView_buffer_Cylinder_0",
+            "byteOffset": 816,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 68,
+            "max": [
+                0,
+                0.6746425628662109,
+                0
+            ],
+            "min": [
+                -0.9987954497337341,
+                -0.7390370965003967,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder_2": {
+            "bufferView": "bufferView_buffer_Cylinder_0",
+            "byteOffset": 1632,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 68,
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cylinder_3": {
+            "bufferView": "bufferView_buffer_Cylinder_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 102,
+            "max": [
+                67
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cylinder_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 2176,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cylinder_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 204,
+            "byteOffset": 2176,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 2380,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,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apMAP///fz8DRjc/AACAP6JWoD7//38/gBVYPwAAQDRuuhc/AAAANKDyPD4AAIA/qfI8PgAAAADoQyc///9/P+hDJz///38/QGH4Pf//fz/qzwg/AACANOZDJz8AAIA0AkY3PwAAgDSYMME+AACAM6JWoD7//38/cLoXPwAAgD+mVqA+AACAM4AVWD8AAEA0mJDhPgAAgDNtkwA/AACAM4enfj4AAAAAAACAPwAAgD+Bp34+//9/P05h+D0AAIAz/5FoPwAAgD/+kWg/AACANL0EdD0AAIAzmDDBPgAAgDNKmUc/AABANP//fz8AAIA0A0Y3PwAAgD+9BHQ9AACAM+fPCD///38/H+Z4PwAAQDQCRjc/AACANJ4EdD3//38/XzEoNAAAgDOHp34+AAAAAG66Fz8AAAA0AAAAAP7/fz9tkwA/AACAM6nyPD4AAAAAapMAP///fz+UkOE+//9/P5QwwT7//38/688IPwAAgD/qzwg/AACAMxUANQBDABUAQwA9AAIAPwAoAAIAKAADABQAQAAnABQAJwAiACMAQQAwACMAMAAlACsAFwARACsAEQApAA8ACwA6AA8AOgA+AB4AGgAbAB4AGwAsAAQAEAAHAAQABwAvADwAOAA0ADwANAA5ABkAHwBCABkAQgATACAAOwAkACAAJAAdACEADQAcACEAHAAzADEANwAWADEAFgAMABgAEgAJABgACQAIAC4AJgAGAC4ABgAtAAAAAQAOAAAADgAKADIANgAFADIABQAqAA=="
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_Glow.png": {
+            "uri": "Glow.png"
+        }
+    },
+    "materials": {
+        "material_Glow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Glow",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Glow"
+        }
+    },
+    "meshes": {
+        "mesh_Cylinder": {
+            "name": "Cylinder",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cylinder_1",
+                        "POSITION": "accessor_buffer_Cylinder_0",
+                        "TEXCOORD_0": "accessor_buffer_Cylinder_2"
+                    },
+                    "indices": "accessor_buffer_Cylinder_3",
+                    "material": "material_Glow",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Cylinder": {
+            "children": [],
+            "matrix": [
+                1.2746089696884155,
+                -1.4157671928405762,
+                0.0,
+                0.0,
+                1.4158103466033936,
+                1.2746477127075195,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.3356165885925293,
+                0.0,
+                -2.9700000286102295,
+                3.0,
+                1.16364586353302,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cylinder"
+            ],
+            "name": "Cylinder"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_Cylinder"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Glow": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Glow.png"
+        }
+    }
+}
