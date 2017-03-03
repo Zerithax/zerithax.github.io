@@ -1,7 +1,7 @@
 {
     "accessors": {
-        "accessor_buffer_Sphere.004_0": {
-            "bufferView": "bufferView_buffer_Sphere.004_0",
+        "accessor_buffer_Sphere.001_0": {
+            "bufferView": "bufferView_buffer_Sphere.001_0",
             "byteOffset": 0,
             "byteStride": 12,
             "componentType": 5126,
@@ -18,8 +18,8 @@
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Sphere.004_1": {
-            "bufferView": "bufferView_buffer_Sphere.004_0",
+        "accessor_buffer_Sphere.001_1": {
+            "bufferView": "bufferView_buffer_Sphere.001_0",
             "byteOffset": 1176,
             "byteStride": 12,
             "componentType": 5126,
@@ -36,8 +36,8 @@
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Sphere.004_2": {
-            "bufferView": "bufferView_buffer_Sphere.004_0",
+        "accessor_buffer_Sphere.001_2": {
+            "bufferView": "bufferView_buffer_Sphere.001_0",
             "byteOffset": 2352,
             "byteStride": 8,
             "componentType": 5126,
@@ -52,8 +52,8 @@
             ],
             "type": "VEC2"
         },
-        "accessor_buffer_Sphere.004_3": {
-            "bufferView": "bufferView_buffer_Sphere.004_1",
+        "accessor_buffer_Sphere.001_3": {
+            "bufferView": "bufferView_buffer_Sphere.001_1",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
@@ -75,13 +75,13 @@
         "version": "1.0"
     },
     "bufferViews": {
-        "bufferView_buffer_Sphere.004_0": {
+        "bufferView_buffer_Sphere.001_0": {
             "buffer": "buffer_combined",
             "byteLength": 3136,
             "byteOffset": 0,
             "target": 34962
         },
-        "bufferView_buffer_Sphere.004_1": {
+        "bufferView_buffer_Sphere.001_1": {
             "buffer": "buffer_combined",
             "byteLength": 252,
             "byteOffset": 3136,
@@ -104,8 +104,8 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Black_Smooth_Rendered.png": {
-            "uri": ""
+        "image_Black Smooth.jpg": {
+            "uri": "Black_Smooth_Rendered.png"
         }
     },
     "materials": {
@@ -144,16 +144,16 @@
         }
     },
     "meshes": {
-        "mesh_Sphere.004": {
-            "name": "Sphere.004",
+        "mesh_Sphere.001": {
+            "name": "Sphere.001",
             "primitives": [
                 {
                     "attributes": {
-                        "NORMAL": "accessor_buffer_Sphere.004_1",
-                        "POSITION": "accessor_buffer_Sphere.004_0",
-                        "TEXCOORD_0": "accessor_buffer_Sphere.004_2"
+                        "NORMAL": "accessor_buffer_Sphere.001_1",
+                        "POSITION": "accessor_buffer_Sphere.001_0",
+                        "TEXCOORD_0": "accessor_buffer_Sphere.001_2"
                     },
-                    "indices": "accessor_buffer_Sphere.004_3",
+                    "indices": "accessor_buffer_Sphere.001_3",
                     "material": "material_Metal Texture",
                     "mode": 4
                 }
@@ -161,34 +161,34 @@
         }
     },
     "nodes": {
-        "node_Sphere.004": {
+        "node_Sphere.001": {
             "children": [],
             "matrix": [
-                0.2150000035762787,
+                0.21531888842582703,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                0.2150000035762787,
+                0.21531888842582703,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
-                0.2150000035762787,
+                0.21531888842582703,
                 0.0,
-                3.0369153022766113,
-                0.6034767627716064,
-                1.3992516994476318,
+                -2.263108730316162,
+                0.8310678601264954,
+                1.9991487264633179,
                 1.0
             ],
             "meshes": [
-                "mesh_Sphere.004"
+                "mesh_Sphere.001"
             ],
-            "name": "Sphere.004"
+            "name": "Sphere.001"
         },
         "node_scene_Scene_root": {
             "children": [
-                "node_Sphere.004"
+                "node_Sphere.001"
             ],
             "matrix": [
                 1.0,
@@ -237,7 +237,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Black_Smooth_Rendered.png"
+            "source": "image_Black Smooth.jpg"
         }
     }
 }

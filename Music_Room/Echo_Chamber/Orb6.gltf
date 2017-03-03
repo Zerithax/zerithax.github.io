@@ -104,8 +104,8 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Black_Smooth_Rendered.png": {
-            "uri": ""
+        "image_Black Smooth.jpg": {
+            "uri": "Black_Smooth_Rendered.png"
         }
     },
     "materials": {
@@ -178,7 +178,7 @@
                 0.0,
                 -2.9378433227539062,
                 -1.9214129447937012,
-                0.8979282975196838,
+                1.5325268507003784,
                 1.0
             ],
             "meshes": [
@@ -237,7 +237,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Black_Smooth_Rendered.png"
+            "source": "image_Black Smooth.jpg"
         }
     }
 }
