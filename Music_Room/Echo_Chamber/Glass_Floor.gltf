@@ -104,8 +104,8 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Glass_Floor.png": {
-            "uri": ""
+        "image_Glass_Floor": {
+            "uri": "Glass_Floor.png"
         }
     },
     "materials": {
@@ -237,7 +237,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Glass_Floor.png"
+            "source": "image_Glass_Floor"
         }
     }
 }

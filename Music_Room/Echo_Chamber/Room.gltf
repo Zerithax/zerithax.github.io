@@ -572,26 +572,20 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_RoomWall1": {
-            "uri": ""
+        "image_RoomWall1.png": {
+            "uri": "RoomWall1.png"
         },
-        "image_RoomWall2": {
-            "uri": ""
+        "image_RoomWall2.png": {
+            "uri": "RoomWall2.png"
         },
-        "image_RoomWall3.png": {
-            "uri": ""
+        "image_RoomWall4.png": {
+            "uri": "RoomWall4.png"
         },
-        "image_RoomWall4": {
-            "uri": ""
+        "image_RoomWall5.png": {
+            "uri": "RoomWall5.png"
         },
-        "image_RoomWall5": {
-            "uri": ""
-        },
-        "image_RoomWall6": {
-            "uri": ""
-        },
-        "image_Room_Ceiling.png": {
-            "uri": ""
+        "image_RoomWall6.png": {
+            "uri": "RoomWall6.png"
         }
     },
     "materials": {
@@ -1163,47 +1157,35 @@
         }
     },
     "textures": {
-        "texture_Room_Ceiling": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_Room_Ceiling.png"
-        },
         "texture_Room_Wall1": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_RoomWall1"
+            "source": "image_RoomWall1.png"
         },
         "texture_Room_Wall2": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_RoomWall2"
-        },
-        "texture_Room_Wall3": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_RoomWall3.png"
+            "source": "image_RoomWall2.png"
         },
         "texture_Room_Wall4": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_RoomWall4"
+            "source": "image_RoomWall4.png"
         },
         "texture_Room_Wall5": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_RoomWall5"
+            "source": "image_RoomWall5.png"
         },
         "texture_Room_Wall6": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_RoomWall6"
+            "source": "image_RoomWall6.png"
         }
     }
 }

@@ -338,17 +338,14 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Grid1.png": {
-            "uri": ""
+        "image_Grid1": {
+            "uri": "Grid1.png"
         },
-        "image_Grid2.png": {
-            "uri": ""
+        "image_Grid2": {
+            "uri": "Grid2.png"
         },
-        "image_Grid3.png": {
-            "uri": ""
-        },
-        "image_Grid4.png": {
-            "uri": ""
+        "image_Grid4": {
+            "uri": "Grid4.png"
         }
     },
     "materials": {
@@ -702,25 +699,19 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Grid1.png"
+            "source": "image_Grid1"
         },
         "texture_Grid2": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Grid2.png"
-        },
-        "texture_Grid3": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_Grid3.png"
+            "source": "image_Grid2"
         },
         "texture_Grid4": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Grid4.png"
+            "source": "image_Grid4"
         }
     }
 }

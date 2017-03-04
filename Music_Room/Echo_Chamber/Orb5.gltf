@@ -104,8 +104,8 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Black_Smooth_Rendered.png": {
-            "uri": ""
+        "image_Black Smooth": {
+            "uri": "Black_Smooth_Rendered.png"
         }
     },
     "materials": {
@@ -237,7 +237,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Black_Smooth_Rendered.png"
+            "source": "image_Black Smooth"
         }
     }
 }
