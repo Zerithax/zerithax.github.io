@@ -572,6 +572,9 @@
         "KHR_materials_common"
     ],
     "images": {
+        "image_HallWall3.png": {
+            "uri": "HallWall3.png"
+        },
         "image_RoomWall1.png": {
             "uri": "RoomWall1.png"
         },
@@ -586,6 +589,9 @@
         },
         "image_RoomWall6.png": {
             "uri": "RoomWall6.png"
+        },
+        "image_Room_Ceiling": {
+            "uri": "Room_Ceiling.png"
         }
     },
     "materials": {
@@ -1157,6 +1163,12 @@
         }
     },
     "textures": {
+        "texture_Room_Ceiling": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Room_Ceiling"
+        },
         "texture_Room_Wall1": {
             "format": 6408,
             "internalFormat": 6408,
@@ -1168,6 +1180,12 @@
             "internalFormat": 6408,
             "sampler": "sampler_default",
             "source": "image_RoomWall2.png"
+        },
+        "texture_Room_Wall3": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_HallWall3.png"
         },
         "texture_Room_Wall4": {
             "format": 6408,

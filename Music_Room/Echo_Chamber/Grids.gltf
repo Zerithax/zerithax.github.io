@@ -344,6 +344,9 @@
         "image_Grid2": {
             "uri": "Grid2.png"
         },
+        "image_Grid3": {
+            "uri": "Grid3.png"
+        },
         "image_Grid4": {
             "uri": "Grid4.png"
         }
@@ -706,6 +709,12 @@
             "internalFormat": 6408,
             "sampler": "sampler_default",
             "source": "image_Grid2"
+        },
+        "texture_Grid3": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Grid3"
         },
         "texture_Grid4": {
             "format": 6408,
