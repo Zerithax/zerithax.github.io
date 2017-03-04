@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Cube_0": {
+            "bufferView": "bufferView_buffer_Cube_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                5.0,
+                5.0,
+                0
+            ],
+            "min": [
+                -5.0,
+                -5.0,
+                -0.2263515293598175
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube_1": {
+            "bufferView": "bufferView_buffer_Cube_0",
+            "byteOffset": 288,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube_2": {
+            "bufferView": "bufferView_buffer_Cube_0",
+            "byteOffset": 576,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cube_3": {
+            "bufferView": "bufferView_buffer_Cube_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cube_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 768,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cube_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 72,
+            "byteOffset": 768,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 840,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,AACgwAAAoEAs39e8AACgwAAAoECyyGe+AACgQAAAoEAs39e8AACgQAAAoMCyyGe+AACgwAAAoMAs39e8AACgwAAAoEAs39e8AACgwAAAoMAs39e8AACgwAAAoMCyyGe+AACgwAAAoECyyGe+AACgwAAAoMCyyGe+AACgQAAAoECyyGe+AACgQAAAoECyyGe+AACgQAAAoMCyyGe+AACgQAAAoMAs39e8AACgQAAAoMCyyGe+AACgwAAAoMCyyGe+AACgwAAAoECyyGe+AACgwAAAoEAs39e8AACgwAAAoMAs39e8AACgQAAAoMAs39e8AACgQAAAoEAs39e8AACgQAAAoMAs39e8AACgQAAAoEAs39e8AACgQAAAoECyyGe+AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAAAAAAAAAAAAAIC/XkJ7PwAAgD///38/AACAP3YJbT/+//8+uoR2PwAAgD9fQns/AAAAPyahvTMAAAA/AAAAAP//fz8mob0zAAAAAAAAAAD+//8+vYR2PwAAAD8Xx3E//v//PreEdj8AAIA/cQltPwAAgDNbQns/AACAPxPHcT8AAIA/AACAPwAAAD+6hHY//v//PhnHcT/+//8+XUJ7PwAAAD9xCW0/AACAP3EJbT8BAAA/cAltPwAAgD8Xx3E/AACAP3AJbT8AAAA/AQAPAAQAAQAEAAAACwAQABEACwARABYADgAKAAIADgACABMACQADAA0ACQANABIABwAIABcABwAXAAwAFQAUAAUAFQAFAAYA"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_Glass_Floor.png": {
+            "uri": ""
+        }
+    },
+    "materials": {
+        "material_Glass": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Glass_Floor",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": true
+                    }
+                }
+            },
+            "name": "Glass"
+        }
+    },
+    "meshes": {
+        "mesh_Cube": {
+            "name": "Cube",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cube_1",
+                        "POSITION": "accessor_buffer_Cube_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube_2"
+                    },
+                    "indices": "accessor_buffer_Cube_3",
+                    "material": "material_Glass",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_GlassFloor": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cube"
+            ],
+            "name": "GlassFloor"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_GlassFloor"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Glass_Floor": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Glass_Floor.png"
+        }
+    }
+}
