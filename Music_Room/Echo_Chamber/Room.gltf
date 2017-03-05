@@ -572,14 +572,14 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_HallWall3.png": {
-            "uri": "HallWall3.png"
-        },
         "image_RoomWall1.png": {
             "uri": "RoomWall1.png"
         },
         "image_RoomWall2.png": {
             "uri": "RoomWall2.png"
+        },
+        "image_RoomWall3": {
+            "uri": "RoomWall3.png"
         },
         "image_RoomWall4.png": {
             "uri": "RoomWall4.png"
@@ -1185,7 +1185,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_HallWall3.png"
+            "source": "image_RoomWall3"
         },
         "texture_Room_Wall4": {
             "format": 6408,
