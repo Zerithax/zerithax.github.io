@@ -57,26 +57,12 @@
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
-            "count": 10872,
-            "max": [
-                10658
-            ],
-            "min": [
-                0
-            ],
-            "type": "SCALAR"
-        },
-        "accessor_buffer_Cylinder.008_Cylinder.022_4": {
-            "bufferView": "bufferView_buffer_Cylinder.008_Cylinder.022_2",
-            "byteOffset": 0,
-            "byteStride": 2,
-            "componentType": 5123,
-            "count": 6312,
+            "count": 17184,
             "max": [
                 10659
             ],
             "min": [
-                3
+                0
             ],
             "type": "SCALAR"
         }
@@ -97,14 +83,8 @@
         },
         "bufferView_buffer_Cylinder.008_Cylinder.022_1": {
             "buffer": "buffer_combined",
-            "byteLength": 21744,
+            "byteLength": 34368,
             "byteOffset": 341120,
-            "target": 34963
-        },
-        "bufferView_buffer_Cylinder.008_Cylinder.022_2": {
-            "buffer": "buffer_combined",
-            "byteLength": 12624,
-            "byteOffset": 362864,
             "target": 34963
         }
     },
@@ -161,39 +141,6 @@
                 }
             },
             "name": "Glow"
-        },
-        "material_Glow_Glow.001": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            1.0,
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "diffuse": "texture_Kd.001",
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 49,
-                        "specular": [
-                            0.5,
-                            0.5,
-                            0.5,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": true
-                    }
-                }
-            },
-            "name": "Glow_Glow.001"
         }
     },
     "meshes": {
@@ -209,16 +156,6 @@
                     "indices": "accessor_buffer_Cylinder.008_Cylinder.022_3",
                     "material": "material_Glow",
                     "mode": 4
-                },
-                {
-                    "attributes": {
-                        "NORMAL": "accessor_buffer_Cylinder.008_Cylinder.022_1",
-                        "POSITION": "accessor_buffer_Cylinder.008_Cylinder.022_0",
-                        "TEXCOORD_0": "accessor_buffer_Cylinder.008_Cylinder.022_2"
-                    },
-                    "indices": "accessor_buffer_Cylinder.008_Cylinder.022_4",
-                    "material": "material_Glow_Glow.001",
-                    "mode": 4
                 }
             ]
         }
@@ -227,21 +164,21 @@
         "node_Cylinder.008_Cylinder.022": {
             "children": [],
             "matrix": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -1.6292068494294654e-07,
-                1.0,
-                0.0,
-                0.0,
                 -1.0,
+                -8.742277657347586e-08,
+                0.0,
+                0.0,
+                -1.424297928675957e-14,
+                1.6292068494294654e-07,
+                1.0,
+                0.0,
+                -8.742277657347586e-08,
+                1.0,
                 -1.6292068494294654e-07,
                 0.0,
                 0.0,
                 0.0,
-                0.0,
+                -0.032999999821186066,
                 1.0
             ],
             "meshes": [
@@ -297,12 +234,6 @@
     },
     "textures": {
         "texture_Kd": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_Glow.png"
-        },
-        "texture_Kd.001": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
