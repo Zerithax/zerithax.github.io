@@ -1,0 +1,219 @@
+{
+    "accessors": {
+        "accessor_buffer_Cylinder.008_Cylinder.022_0": {
+            "bufferView": "bufferView_buffer_Cylinder.008_Cylinder.022_0",
+            "byteOffset": 0,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10658,
+            "max": [
+                0.16753700375556946,
+                0.9568750262260437,
+                0.12691499292850494
+            ],
+            "min": [
+                -0.1675499975681305,
+                -0.4789789915084839,
+                -0.10512399673461914
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder.008_Cylinder.022_1": {
+            "bufferView": "bufferView_buffer_Cylinder.008_Cylinder.022_0",
+            "byteOffset": 12,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10658,
+            "max": [
+                0.999679684638977,
+                1.0,
+                0.9991810321807861
+            ],
+            "min": [
+                -0.9996801018714905,
+                -0.9928102493286133,
+                -0.9993848204612732
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cylinder.008_Cylinder.022_2": {
+            "bufferView": "bufferView_buffer_Cylinder.008_Cylinder.022_0",
+            "byteOffset": 24,
+            "byteStride": 32,
+            "componentType": 5126,
+            "count": 10658,
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cylinder.008_Cylinder.022_3": {
+            "bufferView": "bufferView_buffer_Cylinder.008_Cylinder.022_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 17184,
+            "max": [
+                10657
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cylinder.008_Cylinder.022_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 341056,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cylinder.008_Cylinder.022_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 34368,
+            "byteOffset": 341056,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 375424,
+            "type": "arraybuffer",
+            "uri": "buffer_combined.bin"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_Glow.png": {
+            "uri": "Glow.png"
+        }
+    },
+    "materials": {
+        "material_Glow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Kd",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 48,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": true
+                    }
+                }
+            },
+            "name": "Glow"
+        }
+    },
+    "meshes": {
+        "mesh_Cylinder.008_Cylinder.022": {
+            "name": "Cylinder.008_Cylinder.022",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cylinder.008_Cylinder.022_1",
+                        "POSITION": "accessor_buffer_Cylinder.008_Cylinder.022_0",
+                        "TEXCOORD_0": "accessor_buffer_Cylinder.008_Cylinder.022_2"
+                    },
+                    "indices": "accessor_buffer_Cylinder.008_Cylinder.022_3",
+                    "material": "material_Glow",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Cylinder.008_Cylinder.022": {
+            "children": [],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cylinder.008_Cylinder.022"
+            ],
+            "name": "Cylinder.008_Cylinder.022"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_Cylinder.008_Cylinder.022"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Kd": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Glow.png"
+        }
+    }
+}
