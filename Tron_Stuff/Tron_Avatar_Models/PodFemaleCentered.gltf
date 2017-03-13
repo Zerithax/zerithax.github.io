@@ -87,8 +87,13 @@
     "extensionsUsed": [
         "KHR_materials_common"
     ],
+    "images": {
+        "image_Glow": {
+            "uri": "Glow.png"
+        }
+    },
     "materials": {
-        "material_Glow.003": {
+        "material_Glow": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -99,12 +104,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": [
-                            0.6399999856948853,
-                            0.006173995789140463,
-                            0.0,
-                            1.0
-                        ],
+                        "diffuse": "texture_Kd",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -124,7 +124,7 @@
                     }
                 }
             },
-            "name": "Glow.003"
+            "name": "Glow"
         }
     },
     "meshes": {
@@ -137,7 +137,7 @@
                         "POSITION": "accessor_buffer_Cylinder.008_Cylinder.002_0"
                     },
                     "indices": "accessor_buffer_Cylinder.008_Cylinder.002_2",
-                    "material": "material_Glow.003",
+                    "material": "material_Glow",
                     "mode": 4
                 }
             ]
@@ -213,6 +213,14 @@
             "nodes": [
                 "node_scene_Scene_root"
             ]
+        }
+    },
+    "textures": {
+        "texture_Kd": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Glow"
         }
     }
 }
