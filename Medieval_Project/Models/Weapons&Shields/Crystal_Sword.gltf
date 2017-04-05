@@ -193,12 +193,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": [
-                            0.64000004529953,
-                            0.64000004529953,
-                            0.64000004529953,
-                            1.0
-                        ],
+                        "diffuse": "texture_Baked",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -231,12 +226,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": [
-                            0.64000004529953,
-                            0.64000004529953,
-                            0.64000004529953,
-                            1.0
-                        ],
+                        "diffuse": "texture_Baked",
                         "doubleSided": false,
                         "emission": [
                             0.0,
