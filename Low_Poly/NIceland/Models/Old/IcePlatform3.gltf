@@ -104,12 +104,12 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_IcePlatform3": {
+        "image_Ice 3": {
             "uri": "IcePlatform3.png"
         }
     },
     "materials": {
-        "material_IcePlat3": {
+        "material_Ice 3": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -140,7 +140,7 @@
                     }
                 }
             },
-            "name": "IcePlat3"
+            "name": "Ice 3"
         }
     },
     "meshes": {
@@ -154,7 +154,7 @@
                         "TEXCOORD_0": "accessor_buffer_Ice Platform 3_2"
                     },
                     "indices": "accessor_buffer_Ice Platform 3_3",
-                    "material": "material_IcePlat3",
+                    "material": "material_Ice 3",
                     "mode": 4
                 }
             ]
@@ -237,7 +237,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_IcePlatform3"
+            "source": "image_Ice 3"
         }
     }
 }
