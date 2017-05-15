@@ -146,9 +146,6 @@
     "images": {
         "image_BGMountain3": {
             "uri": "BGMountain3.png"
-        },
-        "image_Glacier": {
-            "uri": "GlacierNEW.png"
         }
     },
     "materials": {
@@ -196,7 +193,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Glacier",
+                        "diffuse": "texture_BGMountain3",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -229,7 +226,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Glacier",
+                        "diffuse": "texture_BGMountain3",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -367,12 +364,6 @@
             "internalFormat": 6408,
             "sampler": "sampler_default",
             "source": "image_BGMountain3"
-        },
-        "texture_Glacier": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_Glacier"
         }
     }
 }
