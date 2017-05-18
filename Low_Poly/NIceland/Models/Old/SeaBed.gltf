@@ -161,7 +161,7 @@
         }
     },
     "nodes": {
-        "node_Seabed": {
+        "node_Plane.001": {
             "children": [],
             "matrix": [
                 652.6883544921875,
@@ -184,11 +184,11 @@
             "meshes": [
                 "mesh_Plane.001"
             ],
-            "name": "Seabed"
+            "name": "Plane.001"
         },
         "node_scene_Scene_root": {
             "children": [
-                "node_Seabed"
+                "node_Plane.001"
             ],
             "matrix": [
                 1.0,

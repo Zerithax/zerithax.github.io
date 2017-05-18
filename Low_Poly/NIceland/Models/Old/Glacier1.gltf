@@ -124,8 +124,8 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Glacier": {
-            "uri": "GlacierNEW.png"
+        "image_Glacier1": {
+            "uri": "Glacier1.png"
         }
     },
     "materials": {
@@ -300,7 +300,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Glacier"
+            "source": "image_Glacier1"
         }
     }
 }

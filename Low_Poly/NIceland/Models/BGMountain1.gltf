@@ -124,7 +124,7 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Ded1": {
+        "image_BGMountain1": {
             "uri": "BGMountain1.png"
         }
     },
@@ -300,7 +300,7 @@
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Ded1"
+            "source": "image_BGMountain1"
         }
     }
 }
