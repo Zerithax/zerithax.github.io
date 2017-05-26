@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Plane_0": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                1.0,
+                1.0,
+                0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane_1": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 48,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0,
+                0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane_2": {
+            "bufferView": "bufferView_buffer_Plane_0",
+            "byteOffset": 96,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                0.9854369163513184,
+                0.9854368949308991
+            ],
+            "min": [
+                0.014563105069100857,
+                0.01456308364868164
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Plane_3": {
+            "bufferView": "bufferView_buffer_Plane_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 6,
+            "max": [
+                3
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Plane_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 128,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Plane_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 12,
+            "byteOffset": 128,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 140,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,AACAvwAAgD8AAAAAAACAvwAAgL8AAAAAAACAPwAAgL8AAAAAAACAPwAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/mEV8P4Cabjyymm48AJpuPBeabjyVRXw/lkV8P5hFfD8AAAEAAgAAAAIAAwA="
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_LBBeamSnow": {
+            "uri": "LBBeamSnow.png"
+        }
+    },
+    "materials": {
+        "material_LBBeamSnow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_LBBeamSnow",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "LBBeamSnow"
+        }
+    },
+    "meshes": {
+        "mesh_Plane": {
+            "name": "Plane",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane_1",
+                        "POSITION": "accessor_buffer_Plane_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane_2"
+                    },
+                    "indices": "accessor_buffer_Plane_3",
+                    "material": "material_LBBeamSnow",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_LBSnowBeam": {
+            "children": [],
+            "matrix": [
+                1.9228203296661377,
+                -0.08109433203935623,
+                0.07524491846561432,
+                0.0,
+                1.0012626647949219,
+                34.10382080078125,
+                11.168572425842285,
+                0.0,
+                -0.49961209297180176,
+                -3.079515218734741,
+                9.448251724243164,
+                0.0,
+                -46.7564811706543,
+                92.4329833984375,
+                -17.293840408325195,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Plane"
+            ],
+            "name": "LBSnowBeam"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_LBSnowBeam"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.06071953475475311,
+                    0.06071953475475311,
+                    0.06071953475475311
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_LBBeamSnow": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_LBBeamSnow"
+        }
+    }
+}
