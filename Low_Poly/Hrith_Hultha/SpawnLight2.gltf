@@ -1,65 +1,49 @@
 {
     "accessors": {
-        "accessor_buffer_Plane_0": {
-            "bufferView": "bufferView_buffer_Plane_0",
+        "accessor_buffer_Cube.013_0": {
+            "bufferView": "bufferView_buffer_Cube.013_0",
             "byteOffset": 0,
             "byteStride": 12,
             "componentType": 5126,
-            "count": 4,
+            "count": 24,
             "max": [
                 1.0,
                 1.0,
-                0
+                1.0
             ],
             "min": [
                 -1.0,
                 -1.0,
-                0.0
+                -1.0
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Plane_1": {
-            "bufferView": "bufferView_buffer_Plane_0",
-            "byteOffset": 48,
+        "accessor_buffer_Cube.013_1": {
+            "bufferView": "bufferView_buffer_Cube.013_0",
+            "byteOffset": 288,
             "byteStride": 12,
             "componentType": 5126,
-            "count": 4,
+            "count": 24,
             "max": [
-                0,
-                0,
+                1.0,
+                1.0,
                 1.0
             ],
             "min": [
-                0.0,
-                0.0,
-                1.0
+                -1.0,
+                -1.0,
+                -1.0
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Plane_2": {
-            "bufferView": "bufferView_buffer_Plane_0",
-            "byteOffset": 96,
-            "byteStride": 8,
-            "componentType": 5126,
-            "count": 4,
-            "max": [
-                0.9854369163513184,
-                0.9854368949308991
-            ],
-            "min": [
-                0.014563105069100857,
-                0.01456308364868164
-            ],
-            "type": "VEC2"
-        },
-        "accessor_buffer_Plane_3": {
-            "bufferView": "bufferView_buffer_Plane_1",
+        "accessor_buffer_Cube.013_2": {
+            "bufferView": "bufferView_buffer_Cube.013_1",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
-            "count": 6,
+            "count": 36,
             "max": [
-                3
+                23
             ],
             "min": [
                 0
@@ -75,24 +59,24 @@
         "version": "1.0"
     },
     "bufferViews": {
-        "bufferView_buffer_Plane_0": {
+        "bufferView_buffer_Cube.013_0": {
             "buffer": "buffer_combined",
-            "byteLength": 128,
+            "byteLength": 576,
             "byteOffset": 0,
             "target": 34962
         },
-        "bufferView_buffer_Plane_1": {
+        "bufferView_buffer_Cube.013_1": {
             "buffer": "buffer_combined",
-            "byteLength": 12,
-            "byteOffset": 128,
+            "byteLength": 72,
+            "byteOffset": 576,
             "target": 34963
         }
     },
     "buffers": {
         "buffer_combined": {
-            "byteLength": 140,
+            "byteLength": 648,
             "type": "arraybuffer",
-            "uri": "data:text/plain;base64,AACAvwAAgD8AAAAAAACAvwAAgL8AAAAAAACAPwAAgL8AAAAAAACAPwAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/mEV8P4Cabjyymm48AJpuPBeabjyVRXw/lkV8P5hFfD8AAAEAAgAAAAIAAwA="
+            "uri": "data:text/plain;base64,AACAvwAAgL8AAIC/AACAPwAAgD8AAIC/AACAPwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIC/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIA/AACAvwAAgL8AAIA/AACAvwAAgD8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIC/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAgD8AAIC/AACAvwAAgD8AAIA/AACAPwAAgL8AAIC/AACAPwAAgD8AAIA/AACAPwAAgL8AAIA/AACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAEwAAAAkAEwAJABQACwAKAAYACwAGABYABwABAAgABwAIAA4ADQAPABcADQAXAAMAEQAEABAAEQAQABUAEgACAAUAEgAFAAwA"
         }
     },
     "extensions": {
@@ -103,13 +87,8 @@
     "extensionsUsed": [
         "KHR_materials_common"
     ],
-    "images": {
-        "image_LBSnowBeam": {
-            "uri": "LBSnowBeam.png"
-        }
-    },
     "materials": {
-        "material_LBBeamSnow": {
+        "material_SpawnGlow": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -120,7 +99,12 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_LBSnowBeam",
+                        "diffuse": [
+                            0.2890833020210266,
+                            0.16750071942806244,
+                            0.2937891483306885,
+                            1.0
+                        ],
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -140,55 +124,54 @@
                     }
                 }
             },
-            "name": "LBBeamSnow"
+            "name": "SpawnGlow"
         }
     },
     "meshes": {
-        "mesh_Plane": {
-            "name": "Plane",
+        "mesh_Cube.013": {
+            "name": "Cube.013",
             "primitives": [
                 {
                     "attributes": {
-                        "NORMAL": "accessor_buffer_Plane_1",
-                        "POSITION": "accessor_buffer_Plane_0",
-                        "TEXCOORD_0": "accessor_buffer_Plane_2"
+                        "NORMAL": "accessor_buffer_Cube.013_1",
+                        "POSITION": "accessor_buffer_Cube.013_0"
                     },
-                    "indices": "accessor_buffer_Plane_3",
-                    "material": "material_LBBeamSnow",
+                    "indices": "accessor_buffer_Cube.013_2",
+                    "material": "material_SpawnGlow",
                     "mode": 4
                 }
             ]
         }
     },
     "nodes": {
-        "node_LBSnowBeam": {
+        "node_SpawnLight2": {
             "children": [],
             "matrix": [
-                1.9228203296661377,
-                -0.08109433203935623,
-                0.07524491846561432,
+                -0.19586195051670074,
+                -0.35657167434692383,
                 0.0,
-                1.0012626647949219,
-                34.10382080078125,
-                11.168572425842285,
                 0.0,
-                -0.49961209297180176,
-                -3.079515218734741,
-                9.448251724243164,
+                0.6609528064727783,
+                -0.3630560636520386,
                 0.0,
-                -46.7564811706543,
-                92.4329833984375,
-                -17.293840408325195,
+                0.0,
+                0.0,
+                0.0,
+                0.30901670455932617,
+                0.0,
+                2.372406005859375,
+                4.259903907775879,
+                -22.51923942565918,
                 1.0
             ],
             "meshes": [
-                "mesh_Plane"
+                "mesh_Cube.013"
             ],
-            "name": "LBSnowBeam"
+            "name": "SpawnLight2"
         },
         "node_scene_Scene_root": {
             "children": [
-                "node_LBSnowBeam"
+                "node_SpawnLight2"
             ],
             "matrix": [
                 1.0,
@@ -230,14 +213,6 @@
             "nodes": [
                 "node_scene_Scene_root"
             ]
-        }
-    },
-    "textures": {
-        "texture_LBSnowBeam": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_LBSnowBeam"
         }
     }
 }
