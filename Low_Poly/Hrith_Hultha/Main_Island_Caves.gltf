@@ -124,12 +124,6 @@
             "byteLength": 96,
             "byteOffset": 94154,
             "target": 34963
-        },
-        "bufferView_buffer_Cube.002_3": {
-            "buffer": "buffer_combined",
-            "byteLength": 0,
-            "byteOffset": 94250,
-            "target": 34963
         }
     },
     "buffers": {
@@ -153,39 +147,6 @@
         }
     },
     "materials": {
-        "material_CandyCavernRock": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            1.0,
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "diffuse": "texture_Caves",
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 50,
-                        "specular": [
-                            0.5,
-                            0.5,
-                            0.5,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": false
-                    }
-                }
-            },
-            "name": "CandyCavernRock"
-        },
         "material_CaveDirt": {
             "extensions": {
                 "KHR_materials_common": {
@@ -277,17 +238,6 @@
                     },
                     "indices": "accessor_buffer_Cube.002_5",
                     "material": "material_CaveDirtRock",
-                    "mode": 4
-                },
-                {
-                    "attributes": {
-                        "COLOR_0": "accessor_buffer_Cube.002_3",
-                        "NORMAL": "accessor_buffer_Cube.002_1",
-                        "POSITION": "accessor_buffer_Cube.002_0",
-                        "TEXCOORD_0": "accessor_buffer_Cube.002_2"
-                    },
-                    "indices": "accessor_buffer_Cube.002_6",
-                    "material": "material_CandyCavernRock",
                     "mode": 4
                 }
             ]
