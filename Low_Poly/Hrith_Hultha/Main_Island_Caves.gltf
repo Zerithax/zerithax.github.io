@@ -70,8 +70,8 @@
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Cube.002_5": {
-            "bufferView": "bufferView_buffer_Cube.002_2",
+        "accessor_buffer_Cube.002_4": {
+            "bufferView": "bufferView_buffer_Cube.002_1",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
@@ -84,8 +84,8 @@
             ],
             "type": "SCALAR"
         },
-        "accessor_buffer_Cube.002_6": {
-            "bufferView": "bufferView_buffer_Cube.002_3",
+        "accessor_buffer_Cube.002_5": {
+            "bufferView": "bufferView_buffer_Cube.002_2",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
@@ -115,20 +115,20 @@
         },
         "bufferView_buffer_Cube.002_1": {
             "buffer": "buffer_combined",
-            "byteLength": 0,
+            "byteLength": 4086,
             "byteOffset": 90068,
             "target": 34963
         },
         "bufferView_buffer_Cube.002_2": {
             "buffer": "buffer_combined",
-            "byteLength": 4086,
-            "byteOffset": 90068,
+            "byteLength": 96,
+            "byteOffset": 94154,
             "target": 34963
         },
         "bufferView_buffer_Cube.002_3": {
             "buffer": "buffer_combined",
-            "byteLength": 96,
-            "byteOffset": 94154,
+            "byteLength": 0,
+            "byteOffset": 94250,
             "target": 34963
         }
     },
@@ -265,17 +265,6 @@
                         "TEXCOORD_0": "accessor_buffer_Cube.002_2"
                     },
                     "indices": "accessor_buffer_Cube.002_4",
-                    "material": "material_CandyCavernRock",
-                    "mode": 4
-                },
-                {
-                    "attributes": {
-                        "COLOR_0": "accessor_buffer_Cube.002_3",
-                        "NORMAL": "accessor_buffer_Cube.002_1",
-                        "POSITION": "accessor_buffer_Cube.002_0",
-                        "TEXCOORD_0": "accessor_buffer_Cube.002_2"
-                    },
-                    "indices": "accessor_buffer_Cube.002_5",
                     "material": "material_CaveDirt",
                     "mode": 4
                 },
@@ -286,8 +275,19 @@
                         "POSITION": "accessor_buffer_Cube.002_0",
                         "TEXCOORD_0": "accessor_buffer_Cube.002_2"
                     },
-                    "indices": "accessor_buffer_Cube.002_6",
+                    "indices": "accessor_buffer_Cube.002_5",
                     "material": "material_CaveDirtRock",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "COLOR_0": "accessor_buffer_Cube.002_3",
+                        "NORMAL": "accessor_buffer_Cube.002_1",
+                        "POSITION": "accessor_buffer_Cube.002_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.002_2"
+                    },
+                    "indices": "accessor_buffer_Cube.002_6",
+                    "material": "material_CandyCavernRock",
                     "mode": 4
                 }
             ]
