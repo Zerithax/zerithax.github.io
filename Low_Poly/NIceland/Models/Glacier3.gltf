@@ -1,7 +1,7 @@
 {
     "accessors": {
-        "accessor_buffer_Cube.010_0": {
-            "bufferView": "bufferView_buffer_Cube.010_0",
+        "accessor_buffer_Cube.008_0": {
+            "bufferView": "bufferView_buffer_Cube.008_0",
             "byteOffset": 0,
             "byteStride": 12,
             "componentType": 5126,
@@ -18,8 +18,8 @@
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Cube.010_1": {
-            "bufferView": "bufferView_buffer_Cube.010_0",
+        "accessor_buffer_Cube.008_1": {
+            "bufferView": "bufferView_buffer_Cube.008_0",
             "byteOffset": 8256,
             "byteStride": 12,
             "componentType": 5126,
@@ -36,8 +36,8 @@
             ],
             "type": "VEC3"
         },
-        "accessor_buffer_Cube.010_2": {
-            "bufferView": "bufferView_buffer_Cube.010_0",
+        "accessor_buffer_Cube.008_2": {
+            "bufferView": "bufferView_buffer_Cube.008_0",
             "byteOffset": 16512,
             "byteStride": 8,
             "componentType": 5126,
@@ -52,8 +52,8 @@
             ],
             "type": "VEC2"
         },
-        "accessor_buffer_Cube.010_3": {
-            "bufferView": "bufferView_buffer_Cube.010_1",
+        "accessor_buffer_Cube.008_3": {
+            "bufferView": "bufferView_buffer_Cube.008_1",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
@@ -66,8 +66,8 @@
             ],
             "type": "SCALAR"
         },
-        "accessor_buffer_Cube.010_4": {
-            "bufferView": "bufferView_buffer_Cube.010_2",
+        "accessor_buffer_Cube.008_4": {
+            "bufferView": "bufferView_buffer_Cube.008_2",
             "byteOffset": 0,
             "byteStride": 2,
             "componentType": 5123,
@@ -89,19 +89,19 @@
         "version": "1.0"
     },
     "bufferViews": {
-        "bufferView_buffer_Cube.010_0": {
+        "bufferView_buffer_Cube.008_0": {
             "buffer": "buffer_combined",
             "byteLength": 22016,
             "byteOffset": 0,
             "target": 34962
         },
-        "bufferView_buffer_Cube.010_1": {
+        "bufferView_buffer_Cube.008_1": {
             "buffer": "buffer_combined",
             "byteLength": 1668,
             "byteOffset": 22016,
             "target": 34963
         },
-        "bufferView_buffer_Cube.010_2": {
+        "bufferView_buffer_Cube.008_2": {
             "buffer": "buffer_combined",
             "byteLength": 324,
             "byteOffset": 23684,
@@ -124,12 +124,12 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Glacier3.001": {
+        "image_Glacier3": {
             "uri": "Glacier3.png"
         }
     },
     "materials": {
-        "material_GlacierIce3.001": {
+        "material_GlacierIce3": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -140,7 +140,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Glacier3.001",
+                        "diffuse": "texture_Glacier3",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -160,9 +160,9 @@
                     }
                 }
             },
-            "name": "GlacierIce3.001"
+            "name": "GlacierIce3"
         },
-        "material_GlacierSnow3.001": {
+        "material_GlacierSnow3": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -173,7 +173,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Glacier3.001",
+                        "diffuse": "texture_Glacier3",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -193,65 +193,65 @@
                     }
                 }
             },
-            "name": "GlacierSnow3.001"
+            "name": "GlacierSnow3"
         }
     },
     "meshes": {
-        "mesh_Cube.010": {
-            "name": "Cube.010",
+        "mesh_Cube.008": {
+            "name": "Cube.008",
             "primitives": [
                 {
                     "attributes": {
-                        "NORMAL": "accessor_buffer_Cube.010_1",
-                        "POSITION": "accessor_buffer_Cube.010_0",
-                        "TEXCOORD_0": "accessor_buffer_Cube.010_2"
+                        "NORMAL": "accessor_buffer_Cube.008_1",
+                        "POSITION": "accessor_buffer_Cube.008_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.008_2"
                     },
-                    "indices": "accessor_buffer_Cube.010_3",
-                    "material": "material_GlacierIce3.001",
+                    "indices": "accessor_buffer_Cube.008_3",
+                    "material": "material_GlacierIce3",
                     "mode": 4
                 },
                 {
                     "attributes": {
-                        "NORMAL": "accessor_buffer_Cube.010_1",
-                        "POSITION": "accessor_buffer_Cube.010_0",
-                        "TEXCOORD_0": "accessor_buffer_Cube.010_2"
+                        "NORMAL": "accessor_buffer_Cube.008_1",
+                        "POSITION": "accessor_buffer_Cube.008_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.008_2"
                     },
-                    "indices": "accessor_buffer_Cube.010_4",
-                    "material": "material_GlacierSnow3.001",
+                    "indices": "accessor_buffer_Cube.008_4",
+                    "material": "material_GlacierSnow3",
                     "mode": 4
                 }
             ]
         }
     },
     "nodes": {
-        "node_Glacier3.001": {
+        "node_Glacier3": {
             "children": [],
             "matrix": [
-                0.9593645334243774,
-                -0.28216955065727234,
+                0.873228907585144,
+                -0.4873102009296417,
                 0.0,
                 0.0,
-                0.28216955065727234,
-                0.9593645334243774,
+                0.4873102009296417,
+                0.873228907585144,
                 0.0,
                 0.0,
                 0.0,
                 0.0,
                 1.0,
                 0.0,
-                0.0,
-                0.0,
-                0.0,
+                66.75879669189453,
+                -15.174919128417969,
+                -0.5217190384864807,
                 1.0
             ],
             "meshes": [
-                "mesh_Cube.010"
+                "mesh_Cube.008"
             ],
-            "name": "Glacier3.001"
+            "name": "Glacier3"
         },
         "node_scene_Scene_root": {
             "children": [
-                "node_Glacier3.001"
+                "node_Glacier3"
             ],
             "matrix": [
                 1.0,
@@ -296,11 +296,11 @@
         }
     },
     "textures": {
-        "texture_Glacier3.001": {
+        "texture_Glacier3": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Glacier3.001"
+            "source": "image_Glacier3"
         }
     }
 }
