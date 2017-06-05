@@ -124,9 +124,6 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_Sign1": {
-            "uri": "Sign1.png"
-        },
         "image_Sign2": {
             "uri": "Sign2.png"
         }
@@ -176,7 +173,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Sign1",
+                        "diffuse": "texture_Sign2",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -299,12 +296,6 @@
         }
     },
     "textures": {
-        "texture_Sign1": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_Sign1"
-        },
         "texture_Sign2": {
             "format": 6408,
             "internalFormat": 6408,
