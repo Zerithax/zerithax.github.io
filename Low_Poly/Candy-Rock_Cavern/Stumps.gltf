@@ -1,0 +1,1200 @@
+{
+    "accessors": {
+        "accessor_buffer_Icosphere.235_0": {
+            "bufferView": "bufferView_buffer_Icosphere.235_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                1.0315310955047607,
+                0.9810342788696289,
+                0.10685311257839203
+            ],
+            "min": [
+                -1.0315310955047607,
+                -0.9810342788696289,
+                -0.5205374360084534
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.235_1": {
+            "bufferView": "bufferView_buffer_Icosphere.235_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9540672898292542,
+                0.9073740243911743,
+                1.0
+            ],
+            "min": [
+                -0.9540673494338989,
+                -0.9073741436004639,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.235_2": {
+            "bufferView": "bufferView_buffer_Icosphere.235_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.235_3": {
+            "bufferView": "bufferView_buffer_Icosphere.235_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                38
+            ],
+            "min": [
+                1
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.235_4": {
+            "bufferView": "bufferView_buffer_Icosphere.235_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                39
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.236_0": {
+            "bufferView": "bufferView_buffer_Icosphere.236_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9186047315597534,
+                0.8736360669136047,
+                0.6986165642738342
+            ],
+            "min": [
+                -0.9186047315597534,
+                -0.8736360669136047,
+                -0.5205374360084534
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.236_1": {
+            "bufferView": "bufferView_buffer_Icosphere.236_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.989803671836853,
+                0.9413586854934692,
+                1.0
+            ],
+            "min": [
+                -0.989803671836853,
+                -0.9413586854934692,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.236_2": {
+            "bufferView": "bufferView_buffer_Icosphere.236_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.236_3": {
+            "bufferView": "bufferView_buffer_Icosphere.236_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                39
+            ],
+            "min": [
+                2
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.236_4": {
+            "bufferView": "bufferView_buffer_Icosphere.236_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                38
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.237_0": {
+            "bufferView": "bufferView_buffer_Icosphere.237_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.7402860522270203,
+                0.7040466070175171,
+                0.34637451171875
+            ],
+            "min": [
+                -0.7402860522270203,
+                -0.7040466070175171,
+                -0.5205374956130981
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.237_1": {
+            "bufferView": "bufferView_buffer_Icosphere.237_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9869600534439087,
+                0.9386545419692993,
+                1.0
+            ],
+            "min": [
+                -0.9869600534439087,
+                -0.9386544823646545,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.237_2": {
+            "bufferView": "bufferView_buffer_Icosphere.237_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.237_3": {
+            "bufferView": "bufferView_buffer_Icosphere.237_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                38
+            ],
+            "min": [
+                1
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.237_4": {
+            "bufferView": "bufferView_buffer_Icosphere.237_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                39
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.238_0": {
+            "bufferView": "bufferView_buffer_Icosphere.238_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.6908579468727112,
+                0.6570382118225098,
+                0.711834192276001
+            ],
+            "min": [
+                -0.6908579468727112,
+                -0.6570382118225098,
+                -0.5205374956130981
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.238_1": {
+            "bufferView": "bufferView_buffer_Icosphere.238_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9943172335624695,
+                0.9456508755683899,
+                1.0
+            ],
+            "min": [
+                -0.9943172335624695,
+                -0.9456508755683899,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.238_2": {
+            "bufferView": "bufferView_buffer_Icosphere.238_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.238_3": {
+            "bufferView": "bufferView_buffer_Icosphere.238_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                39
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.238_4": {
+            "bufferView": "bufferView_buffer_Icosphere.238_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                37
+            ],
+            "min": [
+                2
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.239_0": {
+            "bufferView": "bufferView_buffer_Icosphere.239_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.8157894611358643,
+                0.7758539319038391,
+                1.0713260173797607
+            ],
+            "min": [
+                -0.8157894611358643,
+                -0.7758539319038391,
+                -0.5205374956130981
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.239_1": {
+            "bufferView": "bufferView_buffer_Icosphere.239_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9952442646026611,
+                0.9465323686599731,
+                1.0
+            ],
+            "min": [
+                -0.9952442646026611,
+                -0.9465323686599731,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.239_2": {
+            "bufferView": "bufferView_buffer_Icosphere.239_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.239_3": {
+            "bufferView": "bufferView_buffer_Icosphere.239_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                39
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.239_4": {
+            "bufferView": "bufferView_buffer_Icosphere.239_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                35
+            ],
+            "min": [
+                1
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.240_0": {
+            "bufferView": "bufferView_buffer_Icosphere.240_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.6920955181121826,
+                0.658215343952179,
+                0.6177094578742981
+            ],
+            "min": [
+                -0.689572811126709,
+                -0.658215343952179,
+                -0.5205374956130981
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.240_1": {
+            "bufferView": "bufferView_buffer_Icosphere.240_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.9931190609931946,
+                0.9449446201324463,
+                1.0
+            ],
+            "min": [
+                -0.9935745596885681,
+                -0.9449446201324463,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.240_2": {
+            "bufferView": "bufferView_buffer_Icosphere.240_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.240_3": {
+            "bufferView": "bufferView_buffer_Icosphere.240_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                39
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.240_4": {
+            "bufferView": "bufferView_buffer_Icosphere.240_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                38
+            ],
+            "min": [
+                2
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.241_0": {
+            "bufferView": "bufferView_buffer_Icosphere.241_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.650231122970581,
+                0.6184002161026001,
+                1.2909718751907349
+            ],
+            "min": [
+                -0.650231122970581,
+                -0.6184002161026001,
+                -0.5205374956130981
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.241_1": {
+            "bufferView": "bufferView_buffer_Icosphere.241_0",
+            "byteOffset": 480,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.997658371925354,
+                0.9488282799720764,
+                1.0
+            ],
+            "min": [
+                -0.997658371925354,
+                -0.9488282799720764,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Icosphere.241_2": {
+            "bufferView": "bufferView_buffer_Icosphere.241_0",
+            "byteOffset": 960,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                0.994088888168335,
+                0.9913617167621851
+            ],
+            "min": [
+                0.005911098327487707,
+                0.008638262748718262
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Icosphere.241_3": {
+            "bufferView": "bufferView_buffer_Icosphere.241_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 30,
+            "max": [
+                39
+            ],
+            "min": [
+                1
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_buffer_Icosphere.241_4": {
+            "bufferView": "bufferView_buffer_Icosphere.241_2",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 18,
+            "max": [
+                36
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Icosphere.235_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 1376,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.235_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 2656,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.235_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 2716,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.236_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.236_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 1280,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.236_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 1340,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.237_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 8256,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.237_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 9536,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.237_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 9596,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.238_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 2752,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.238_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 4032,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.238_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 4092,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.239_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 4128,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.239_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 5408,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.239_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 5468,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.240_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 5504,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.240_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 6784,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.240_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 6844,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.241_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 1280,
+            "byteOffset": 6880,
+            "target": 34962
+        },
+        "bufferView_buffer_Icosphere.241_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 60,
+            "byteOffset": 8160,
+            "target": 34963
+        },
+        "bufferView_buffer_Icosphere.241_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 36,
+            "byteOffset": 8220,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 9632,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,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"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_Stump": {
+            "uri": "Stump.png"
+        }
+    },
+    "materials": {
+        "material_StumpBark1": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Stump",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "StumpBark1"
+        },
+        "material_StumpWood1": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Stump",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "StumpWood1"
+        }
+    },
+    "meshes": {
+        "mesh_Icosphere.235": {
+            "name": "Icosphere.235",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.235_1",
+                        "POSITION": "accessor_buffer_Icosphere.235_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.235_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.235_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.235_1",
+                        "POSITION": "accessor_buffer_Icosphere.235_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.235_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.235_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.236": {
+            "name": "Icosphere.236",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.236_1",
+                        "POSITION": "accessor_buffer_Icosphere.236_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.236_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.236_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.236_1",
+                        "POSITION": "accessor_buffer_Icosphere.236_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.236_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.236_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.237": {
+            "name": "Icosphere.237",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.237_1",
+                        "POSITION": "accessor_buffer_Icosphere.237_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.237_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.237_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.237_1",
+                        "POSITION": "accessor_buffer_Icosphere.237_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.237_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.237_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.238": {
+            "name": "Icosphere.238",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.238_1",
+                        "POSITION": "accessor_buffer_Icosphere.238_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.238_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.238_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.238_1",
+                        "POSITION": "accessor_buffer_Icosphere.238_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.238_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.238_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.239": {
+            "name": "Icosphere.239",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.239_1",
+                        "POSITION": "accessor_buffer_Icosphere.239_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.239_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.239_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.239_1",
+                        "POSITION": "accessor_buffer_Icosphere.239_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.239_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.239_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.240": {
+            "name": "Icosphere.240",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.240_1",
+                        "POSITION": "accessor_buffer_Icosphere.240_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.240_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.240_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.240_1",
+                        "POSITION": "accessor_buffer_Icosphere.240_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.240_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.240_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        },
+        "mesh_Icosphere.241": {
+            "name": "Icosphere.241",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.241_1",
+                        "POSITION": "accessor_buffer_Icosphere.241_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.241_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.241_3",
+                    "material": "material_StumpBark1",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Icosphere.241_1",
+                        "POSITION": "accessor_buffer_Icosphere.241_0",
+                        "TEXCOORD_0": "accessor_buffer_Icosphere.241_2"
+                    },
+                    "indices": "accessor_buffer_Icosphere.241_4",
+                    "material": "material_StumpWood1",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_Stump1": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -38.09975814819336,
+                115.12532806396484,
+                11.728882789611816,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.236"
+            ],
+            "name": "Stump1"
+        },
+        "node_Stump2": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -41.14042663574219,
+                115.52164459228516,
+                11.728882789611816,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.235"
+            ],
+            "name": "Stump2"
+        },
+        "node_Stump3": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -42.249908447265625,
+                118.41446685791016,
+                11.728882789611816,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.238"
+            ],
+            "name": "Stump3"
+        },
+        "node_Stump4": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -40.54426574707031,
+                121.06954193115234,
+                11.703717231750488,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.239"
+            ],
+            "name": "Stump4"
+        },
+        "node_Stump5": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -37.936317443847656,
+                122.17041778564453,
+                11.703717231750488,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.240"
+            ],
+            "name": "Stump5"
+        },
+        "node_Stump6": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -36.0697021484375,
+                120.77890014648438,
+                11.728882789611816,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.241"
+            ],
+            "name": "Stump6"
+        },
+        "node_Stump7": {
+            "children": [],
+            "matrix": [
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.33233174681663513,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.8738449811935425,
+                0.0,
+                -35.41288375854492,
+                117.68389129638672,
+                11.728882789611816,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Icosphere.237"
+            ],
+            "name": "Stump7"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_Stump2",
+                "node_Stump1",
+                "node_Stump7",
+                "node_Stump3",
+                "node_Stump4",
+                "node_Stump5",
+                "node_Stump6"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.3263707756996155,
+                    0.3263707756996155,
+                    0.3263707756996155
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Stump": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Stump"
+        }
+    }
+}
