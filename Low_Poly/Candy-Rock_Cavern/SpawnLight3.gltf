@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Cube.045_0": {
+            "bufferView": "bufferView_buffer_Cube.045_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.045_1": {
+            "bufferView": "bufferView_buffer_Cube.045_0",
+            "byteOffset": 288,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.045_2": {
+            "bufferView": "bufferView_buffer_Cube.045_0",
+            "byteOffset": 576,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.9951456189155579,
+                0.9951456319540739
+            ],
+            "min": [
+                0.004854368045926094,
+                0.004854321479797363
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cube.045_3": {
+            "bufferView": "bufferView_buffer_Cube.045_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cube.045_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 768,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cube.045_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 72,
+            "byteOffset": 768,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 840,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,AACAPwAAgD8AAIA/AACAPwAAgD8AAIC/AACAvwAAgD8AAIC/AACAPwAAgD8AAIA/AACAvwAAgD8AAIC/AACAPwAAgL8AAIC/AACAvwAAgD8AAIA/AACAvwAAgD8AAIA/AACAvwAAgL8AAIC/AACAvwAAgD8AAIC/AACAPwAAgL8AAIA/AACAvwAAgL8AAIA/AACAPwAAgD8AAIA/AACAvwAAgL8AAIC/AACAPwAAgL8AAIA/AACAvwAAgL8AAIA/AACAPwAAgL8AAIC/AACAvwAAgD8AAIA/AACAvwAAgL8AAIA/AACAPwAAgD8AAIC/AACAPwAAgL8AAIC/AACAPwAAgL8AAIA/AACAPwAAgD8AAIC/AACAvwAAgL8AAIC/AAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AACAvwAAAAAAAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAAAAgL8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAAAAAAAAgL8AAAAAZBGfO4ZsKT9kLqg+h2wpP2YuqD7wJq0+cRKfO8zoKz+JbCk/3cF+P2QuqD7dwX4/thGfO+4mrT5kLqg+gBGfO93Bfj/dwX4/3cF+P87oKz9kEZ87YC6oPolsKT+HbCk/Yy6oPmIuqD6JbCk/zugrP/MmrT6GbCk/yxGfOwARnzvP6Cs/3cF+P/MmrT7dwX4/9CatPs7oKz/P6Cs/zugrP/QmrT7uJq0+ZBGfO9zBfj9nLqg+zugrP4lsKT/wJq0+BAANABIABAASABEAAQACAAYAAQAGAAAABQAWAAMABQADABUAFwAUAA4AFwAOAAsACAAJABMACAATABAACgAMAAcACgAHAA8A"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_SpawnLight": {
+            "uri": "SpawnLight.png"
+        }
+    },
+    "materials": {
+        "material_SpawnGlow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_SpawnLight",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "SpawnGlow"
+        }
+    },
+    "meshes": {
+        "mesh_Cube.045": {
+            "name": "Cube.045",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cube.045_1",
+                        "POSITION": "accessor_buffer_Cube.045_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.045_2"
+                    },
+                    "indices": "accessor_buffer_Cube.045_3",
+                    "material": "material_SpawnGlow",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_SpawnLight3.002": {
+            "children": [],
+            "matrix": [
+                -0.010239602997899055,
+                -0.047482311725616455,
+                0.0,
+                0.0,
+                0.7301002144813538,
+                -0.1574467569589615,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.5615082383155823,
+                0.0,
+                1.4381603002548218,
+                -4.849021911621094,
+                3.358100652694702,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cube.045"
+            ],
+            "name": "SpawnLight3.002"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_SpawnLight3.002"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.3263707756996155,
+                    0.3263707756996155,
+                    0.3263707756996155
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_SpawnLight": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_SpawnLight"
+        }
+    }
+}
