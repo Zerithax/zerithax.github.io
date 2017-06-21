@@ -1,0 +1,243 @@
+{
+    "accessors": {
+        "accessor_buffer_Cube.023_0": {
+            "bufferView": "bufferView_buffer_Cube.023_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.9999961853027344,
+                1.0,
+                1.5183875560760498
+            ],
+            "min": [
+                -1.0000038146972656,
+                -1.0,
+                -1.5183873176574707
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.023_1": {
+            "bufferView": "bufferView_buffer_Cube.023_0",
+            "byteOffset": 288,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.9999999403953552,
+                0.9999999403953552,
+                1.0
+            ],
+            "min": [
+                -0.9999999403953552,
+                -0.9999999403953552,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Cube.023_2": {
+            "bufferView": "bufferView_buffer_Cube.023_0",
+            "byteOffset": 576,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                0.9951456189155579,
+                0.9951456319540739
+            ],
+            "min": [
+                0.004854368045926094,
+                0.004854321479797363
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Cube.023_3": {
+            "bufferView": "bufferView_buffer_Cube.023_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 36,
+            "max": [
+                23
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Cube.023_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 768,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Cube.023_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 72,
+            "byteOffset": 768,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 840,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,wP9/PwAAgL+EWsK/wP9/PwAAgD+GWsI/wP9/PwAAgL+GWsI/wP9/PwAAgD+EWsK/wP9/PwAAgD+GWsI/IACAvwAAgL+EWsK/IACAvwAAgL+GWsI/IACAvwAAgD+GWsI/wP9/PwAAgD+EWsK/wP9/PwAAgD+EWsK/IACAvwAAgD+EWsK/IACAvwAAgD+EWsK/wP9/PwAAgL+EWsK/wP9/PwAAgL+GWsI/IACAvwAAgD+GWsI/wP9/PwAAgD+GWsI/IACAvwAAgL+GWsI/wP9/PwAAgL+GWsI/IACAvwAAgL+EWsK/IACAvwAAgD+EWsK/IACAvwAAgL+GWsI/IACAvwAAgL+EWsK/wP9/PwAAgL+EWsK/IACAvwAAgD+GWsI/AAAAAAAAAAAAAIC///9/PwAAAAAAAAAAAAAAAAAAAAAAAIA///9/PwAAAAAAAAAAAAAAAAAAAAAAAIA///9/vwAAAAAAAAAAAAAAAP//f78AAAAA//9/vwAAAAAAAAAAAAAAAAAAAAAAAIC/AAAAAP//fz8AAAAAAAAAAP//fz8AAAAA//9/vwAAAAAAAAAA//9/PwAAAAAAAAAA//9/PwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAP//fz8AAAAA//9/vwAAAAAAAAAAAAAAAP//f78AAAAAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAP//f78AAAAAAAAAAP//f78AAAAAAAAAAP//fz8AAAAAz+grP93Bfj9xEp87zOgrP2QRnztgLqg+Zy6oPs7oKz9jLqg+Yi6oPolsKT/O6Cs/iWwpP4dsKT/zJq0+3cF+P8/oKz/O6Cs/ZC6oPodsKT9mLqg+8CatPolsKT/dwX4/ZC6oPt3Bfj9kEZ873MF+P2QuqD6AEZ87ZBGfO4ZsKT/0Jq0+zugrP/MmrT6GbCk/3cF+P93Bfj/dwX4/zugrP8sRnzsAEZ87iWwpP/AmrT70Jq0+7iatPrYRnzvuJq0+CwAFABAACwAQAAcACQAKABcACQAXAA8ADAADAAEADAABAA0AFQAWABEAFQARAAYAEgATAAgAEgAIAAAAAgAEAA4AAgAOABQA"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_SpawnLight.png": {
+            "uri": "SpawnLight.png"
+        }
+    },
+    "materials": {
+        "material_SpawnGlow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_SpawnLight",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "SpawnGlow"
+        }
+    },
+    "meshes": {
+        "mesh_Cube.023": {
+            "name": "Cube.023",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Cube.023_1",
+                        "POSITION": "accessor_buffer_Cube.023_0",
+                        "TEXCOORD_0": "accessor_buffer_Cube.023_2"
+                    },
+                    "indices": "accessor_buffer_Cube.023_3",
+                    "material": "material_SpawnGlow",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_SpawnLight1": {
+            "children": [],
+            "matrix": [
+                0.104518361389637,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.28449657559394836,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.625103235244751,
+                0.0,
+                16.324106216430664,
+                -198.6109161376953,
+                28.46268653869629,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Cube.023"
+            ],
+            "name": "SpawnLight1"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_SpawnLight1"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.6738413572311401,
+                    0.6738413572311401,
+                    0.6738413572311401
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_SpawnLight": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_SpawnLight.png"
+        }
+    }
+}
