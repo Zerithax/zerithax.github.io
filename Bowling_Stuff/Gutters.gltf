@@ -1,0 +1,399 @@
+{
+    "accessors": {
+        "accessor_buffer_Plane.003_0": {
+            "bufferView": "bufferView_buffer_Plane.003_0",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 246,
+            "max": [
+                1.3998032808303833,
+                1.0000001192092896,
+                0.06615863740444183
+            ],
+            "min": [
+                -1.3998032808303833,
+                -1.000000238418579,
+                -0.535003125667572
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane.003_1": {
+            "bufferView": "bufferView_buffer_Plane.003_0",
+            "byteOffset": 2952,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 246,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        "accessor_buffer_Plane.003_2": {
+            "bufferView": "bufferView_buffer_Plane.003_0",
+            "byteOffset": 5904,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 246,
+            "max": [
+                0.9985071420669556,
+                0.997604722622782
+            ],
+            "min": [
+                0.0014928706223145127,
+                0.002395331859588623
+            ],
+            "type": "VEC2"
+        },
+        "accessor_buffer_Plane.003_3": {
+            "bufferView": "bufferView_buffer_Plane.003_1",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 408,
+            "max": [
+                245
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        }
+    },
+    "asset": {
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.3"
+        },
+        "version": "1.0"
+    },
+    "bufferViews": {
+        "bufferView_buffer_Plane.003_0": {
+            "buffer": "buffer_combined",
+            "byteLength": 7872,
+            "byteOffset": 0,
+            "target": 34962
+        },
+        "bufferView_buffer_Plane.003_1": {
+            "buffer": "buffer_combined",
+            "byteLength": 816,
+            "byteOffset": 7872,
+            "target": 34963
+        },
+        "bufferView_buffer_Plane.003_2": {
+            "buffer": "buffer_combined",
+            "byteLength": 0,
+            "byteOffset": 8688,
+            "target": 34963
+        },
+        "bufferView_buffer_Plane.003_3": {
+            "buffer": "buffer_combined",
+            "byteLength": 0,
+            "byteOffset": 8688,
+            "target": 34963
+        },
+        "bufferView_buffer_Plane.003_4": {
+            "buffer": "buffer_combined",
+            "byteLength": 0,
+            "byteOffset": 8688,
+            "target": 34963
+        }
+    },
+    "buffers": {
+        "buffer_combined": {
+            "byteLength": 8688,
+            "type": "arraybuffer",
+            "uri": "data:text/plain;base64,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sACRAAAAsAAAALcAnADtAPQAnAD0AGwAjwD1AFYAjwBWAEcA1gDNAO0A1gDtAJwA4gAxADgA4gA4AHMAHAArAF4AHABeAFAA3ACbAFoA3ABaABAArQBcAEsArQBLAIUAaACGADcAaAA3AAIASgCaAB4ASgAeAOUAVwCIAEYAVwBGANsAIwDOAB8AIwAfAJMApQCEANEApQDRANgAgABfABYAgAAWAGAAgABgAN0AgADdAHEAJQCJADwAJQA8ABkAGQA8ADkAGQA5AAcABwA5AKAABwCgALQAqQCQAJ0AqQCdAI4AjgCdAOMAjgDjAKYApgDjAKgApgCoAMcAbgB5AOAAbgDgALMArwCsAMUArwDFACAAJAB2AEUAJABFAJUAegDrAHcAegB3AGEAWwDGAAgAWwAIABUAwgA+AOcAwgDnAHgAfACBALoAfAC6AK4AtQAGAH4AtQB+ADoAfQCXAEAAfQBAABQACQABADIACQAyAEEAHQAsAFUAHQBVAD0A5AAJAEEA5ABBALgA4QDVAC8A4QAvAA0AnwDkALgAnwC4AO8A1QCMACIA1QAiAC8ACwDqAFQACwBUALYAjABlAF0AjABdACIAoQCqADAAoQAwACkAuQBYAJIAuQCSAOwAPwC/ALwAPwC8AE8ACgAEAFkACgBZAGcAsQASAJkAsQCZAMkAfwDKAIIAfwCCAI0AogDXAFMAogBTABcAygC+AA4AygAOAIIAyADwAL0AyAC9AIMABQDLADUABQA1ANoABQDaAEgABQBIAJgA"
+        }
+    },
+    "extensions": {
+        "KHR_materials_common": {
+            "lights": {}
+        }
+    },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
+    "images": {
+        "image_GutterWalls": {
+            "uri": "GutterWalls.png"
+        },
+        "image_Runway": {
+            "uri": "Runway.png"
+        }
+    },
+    "materials": {
+        "material_Gutter": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Gutter",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "Gutter"
+        },
+        "material_GutterWallBlack": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Gutter",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "GutterWallBlack"
+        },
+        "material_GutterWallGlow": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Gutter",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "GutterWallGlow"
+        },
+        "material_WoodLane": {
+            "extensions": {
+                "KHR_materials_common": {
+                    "technique": "PHONG",
+                    "values": {
+                        "ambient": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                        ],
+                        "diffuse": "texture_Alley",
+                        "doubleSided": false,
+                        "emission": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ],
+                        "shininess": 50,
+                        "specular": [
+                            0.5,
+                            0.5,
+                            0.5,
+                            1.0
+                        ],
+                        "transparency": 1.0,
+                        "transparent": false
+                    }
+                }
+            },
+            "name": "WoodLane"
+        }
+    },
+    "meshes": {
+        "mesh_Plane.003": {
+            "name": "Plane.003",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane.003_1",
+                        "POSITION": "accessor_buffer_Plane.003_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
+                    },
+                    "indices": "accessor_buffer_Plane.003_3",
+                    "material": "material_Gutter",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane.003_1",
+                        "POSITION": "accessor_buffer_Plane.003_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
+                    },
+                    "indices": "accessor_buffer_Plane.003_4",
+                    "material": "material_GutterWallBlack",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane.003_1",
+                        "POSITION": "accessor_buffer_Plane.003_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
+                    },
+                    "indices": "accessor_buffer_Plane.003_5",
+                    "material": "material_GutterWallGlow",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_buffer_Plane.003_1",
+                        "POSITION": "accessor_buffer_Plane.003_0",
+                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
+                    },
+                    "indices": "accessor_buffer_Plane.003_6",
+                    "material": "material_WoodLane",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_GutterWallsAlone.005": {
+            "children": [],
+            "matrix": [
+                1.2499768733978271,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                12.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                6.614192216147785e-07,
+                0.08383999764919281,
+                1.0
+            ],
+            "meshes": [
+                "mesh_Plane.003"
+            ],
+            "name": "GutterWallsAlone.005"
+        },
+        "node_scene_Scene_root": {
+            "children": [
+                "node_GutterWallsAlone.005"
+            ],
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "node_scene_Scene_root"
+        }
+    },
+    "samplers": {
+        "sampler_default": {}
+    },
+    "scene": "scene_Scene",
+    "scenes": {
+        "scene_Scene": {
+            "extras": {
+                "active_camera": null,
+                "background_color": [
+                    0.06071869283914566,
+                    0.06071869283914566,
+                    0.06071869283914566
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                "node_scene_Scene_root"
+            ]
+        }
+    },
+    "textures": {
+        "texture_Alley": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_Runway"
+        },
+        "texture_Gutter": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_default",
+            "source": "image_GutterWalls"
+        }
+    }
+}
