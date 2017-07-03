@@ -86,24 +86,6 @@
             "byteLength": 816,
             "byteOffset": 7872,
             "target": 34963
-        },
-        "bufferView_buffer_Plane.003_2": {
-            "buffer": "buffer_combined",
-            "byteLength": 0,
-            "byteOffset": 8688,
-            "target": 34963
-        },
-        "bufferView_buffer_Plane.003_3": {
-            "buffer": "buffer_combined",
-            "byteLength": 0,
-            "byteOffset": 8688,
-            "target": 34963
-        },
-        "bufferView_buffer_Plane.003_4": {
-            "buffer": "buffer_combined",
-            "byteLength": 0,
-            "byteOffset": 8688,
-            "target": 34963
         }
     },
     "buffers": {
@@ -122,15 +104,12 @@
         "KHR_materials_common"
     ],
     "images": {
-        "image_GutterWalls": {
-            "uri": "GutterWalls.png"
-        },
-        "image_Runway": {
-            "uri": "Runway.png"
+        "image_Gutters": {
+            "uri": "Gutters.png"
         }
     },
     "materials": {
-        "material_Gutter": {
+        "material_Gutters": {
             "extensions": {
                 "KHR_materials_common": {
                     "technique": "PHONG",
@@ -141,7 +120,7 @@
                             1.0,
                             1.0
                         ],
-                        "diffuse": "texture_Gutter",
+                        "diffuse": "texture_Gutters",
                         "doubleSided": false,
                         "emission": [
                             0.0,
@@ -161,106 +140,7 @@
                     }
                 }
             },
-            "name": "Gutter"
-        },
-        "material_GutterWallBlack": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            1.0,
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "diffuse": "texture_Gutter",
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 50,
-                        "specular": [
-                            0.5,
-                            0.5,
-                            0.5,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": false
-                    }
-                }
-            },
-            "name": "GutterWallBlack"
-        },
-        "material_GutterWallGlow": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            1.0,
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "diffuse": "texture_Gutter",
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 50,
-                        "specular": [
-                            0.5,
-                            0.5,
-                            0.5,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": false
-                    }
-                }
-            },
-            "name": "GutterWallGlow"
-        },
-        "material_WoodLane": {
-            "extensions": {
-                "KHR_materials_common": {
-                    "technique": "PHONG",
-                    "values": {
-                        "ambient": [
-                            1.0,
-                            1.0,
-                            1.0,
-                            1.0
-                        ],
-                        "diffuse": "texture_Alley",
-                        "doubleSided": false,
-                        "emission": [
-                            0.0,
-                            0.0,
-                            0.0,
-                            1.0
-                        ],
-                        "shininess": 50,
-                        "specular": [
-                            0.5,
-                            0.5,
-                            0.5,
-                            1.0
-                        ],
-                        "transparency": 1.0,
-                        "transparent": false
-                    }
-                }
-            },
-            "name": "WoodLane"
+            "name": "Gutters"
         }
     },
     "meshes": {
@@ -274,37 +154,7 @@
                         "TEXCOORD_0": "accessor_buffer_Plane.003_2"
                     },
                     "indices": "accessor_buffer_Plane.003_3",
-                    "material": "material_Gutter",
-                    "mode": 4
-                },
-                {
-                    "attributes": {
-                        "NORMAL": "accessor_buffer_Plane.003_1",
-                        "POSITION": "accessor_buffer_Plane.003_0",
-                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
-                    },
-                    "indices": "accessor_buffer_Plane.003_4",
-                    "material": "material_GutterWallBlack",
-                    "mode": 4
-                },
-                {
-                    "attributes": {
-                        "NORMAL": "accessor_buffer_Plane.003_1",
-                        "POSITION": "accessor_buffer_Plane.003_0",
-                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
-                    },
-                    "indices": "accessor_buffer_Plane.003_5",
-                    "material": "material_GutterWallGlow",
-                    "mode": 4
-                },
-                {
-                    "attributes": {
-                        "NORMAL": "accessor_buffer_Plane.003_1",
-                        "POSITION": "accessor_buffer_Plane.003_0",
-                        "TEXCOORD_0": "accessor_buffer_Plane.003_2"
-                    },
-                    "indices": "accessor_buffer_Plane.003_6",
-                    "material": "material_WoodLane",
+                    "material": "material_Gutters",
                     "mode": 4
                 }
             ]
@@ -383,17 +233,11 @@
         }
     },
     "textures": {
-        "texture_Alley": {
+        "texture_Gutters": {
             "format": 6408,
             "internalFormat": 6408,
             "sampler": "sampler_default",
-            "source": "image_Runway"
-        },
-        "texture_Gutter": {
-            "format": 6408,
-            "internalFormat": 6408,
-            "sampler": "sampler_default",
-            "source": "image_GutterWalls"
+            "source": "image_Gutters"
         }
     }
 }
