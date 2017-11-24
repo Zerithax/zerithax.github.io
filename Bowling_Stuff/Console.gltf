@@ -507,10 +507,10 @@
     ], 
     "images" : [
         {
-            "uri" : "ButtonSmall.png"
+            "uri" : "ButtonDark.png"
         }, 
         {
-            "uri" : "ButtonDark.png"
+            "uri" : "ButtonSmall.png"
         }, 
         {
             "uri" : "ConsoleEdge.png"
@@ -524,12 +524,12 @@
     ], 
     "materials" : [
         {
-            "name" : "Button", 
+            "name" : "ButtonDark", 
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.28042097509534614, 
-                    0.28042097509534614, 
-                    0.28042097509534614, 
+                    0.04396533733554686, 
+                    0.04396533733554686, 
+                    0.04396533733554686, 
                     1.0
                 ], 
                 "baseColorTexture" : {
@@ -539,12 +539,12 @@
             }
         }, 
         {
-            "name" : "ButtonDark", 
+            "name" : "ButtonSmall", 
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.04396533733554686, 
-                    0.04396533733554686, 
-                    0.04396533733554686, 
+                    0.28042097509534614, 
+                    0.28042097509534614, 
+                    0.28042097509534614, 
                     1.0
                 ], 
                 "baseColorTexture" : {
@@ -642,7 +642,7 @@
                         "TEXCOORD_0" : 15
                     }, 
                     "indices" : 12, 
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         }, 
@@ -656,7 +656,7 @@
                         "TEXCOORD_0" : 19
                     }, 
                     "indices" : 16, 
-                    "material" : 1
+                    "material" : 0
                 }
             ]
         }, 
@@ -670,7 +670,7 @@
                         "TEXCOORD_0" : 23
                     }, 
                     "indices" : 20, 
-                    "material" : 0
+                    "material" : 1
                 }
             ]
         }
