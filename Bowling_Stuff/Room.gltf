@@ -1633,6 +1633,9 @@
             "uri" : "RoomEdgeGlow.png"
         }, 
         {
+            "uri" : "RoomEdgeHump.png"
+        }, 
+        {
             "uri" : "WoodFloor.png"
         }
     ], 
@@ -1766,6 +1769,9 @@
                     0.11762182887825112, 
                     1.0
                 ], 
+                "baseColorTexture" : {
+                    "index" : 6
+                }, 
                 "metallicFactor" : 0.0
             }
         }, 
@@ -1779,7 +1785,7 @@
                     1.0
                 ], 
                 "baseColorTexture" : {
-                    "index" : 6
+                    "index" : 7
                 }, 
                 "metallicFactor" : 0.0
             }
@@ -2258,6 +2264,10 @@
         {
             "sampler" : 0, 
             "source" : 6
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 7
         }
     ]
 }
