@@ -187,9 +187,9 @@
             "name" : "boobis", 
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.01498127154978024, 
-                    0.0166752042870999, 
-                    0.14974050744981326, 
+                    0.0, 
+                    0.0, 
+                    0.0, 
                     1.0
                 ], 
                 "baseColorTexture" : {
@@ -202,9 +202,9 @@
             "name" : "vageener", 
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.40291319493820055, 
-                    0.40291319493820055, 
-                    0.40291319493820055, 
+                    0.0, 
+                    0.0, 
+                    0.0, 
                     1.0
                 ], 
                 "baseColorTexture" : {
@@ -242,7 +242,7 @@
     "nodes" : [
         {
             "mesh" : 0, 
-            "name" : "Cube", 
+            "name" : "TestStuff", 
             "scale" : [
                 0.8202700018882751, 
                 0.8202700018882751, 
