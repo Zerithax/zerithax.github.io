@@ -289,6 +289,9 @@
                     0.6400000190734865, 
                     1.0
                 ], 
+                "baseColorTexture" : {
+                    "index" : 0
+                }, 
                 "metallicFactor" : 0.0
             }
         }, 
