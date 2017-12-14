@@ -129,9 +129,9 @@
             "name" : "BowlingBallColor", 
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
-                    0.03785310145993681, 
-                    0.03785310145993681, 
-                    0.03785310145993681, 
+                    0.800000011920929, 
+                    0.800000011920929, 
+                    0.800000011920929, 
                     1.0
                 ], 
                 "baseColorTexture" : {
@@ -161,7 +161,23 @@
     "nodes" : [
         {
             "mesh" : 0, 
-            "name" : "Sphere.003"
+            "name" : "Sphere.003", 
+            "rotation" : [
+                -0.0, 
+                -0.0, 
+                -1.0, 
+                0.0
+            ], 
+            "scale" : [
+                -1.0, 
+                -1.0, 
+                -1.0
+            ], 
+            "translation" : [
+                0.0, 
+                0.0, 
+                -0.57805997133255
+            ]
         }
     ], 
     "samplers" : [
