@@ -1,0 +1,121 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5121, 
+            "count" : 102, 
+            "max" : [
+                83
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 84, 
+            "max" : [
+                0.47756338119506836, 
+                0.9686529636383057, 
+                -1.2486580610275269
+            ], 
+            "min" : [
+                -0.47756344079971313, 
+                -0.9686530828475952, 
+                -13.062335968017578
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 84, 
+            "max" : [
+                0.9973807334899902, 
+                0.9976237714290619
+            ], 
+            "min" : [
+                0.008708477020263672, 
+                0.0031055808067321777
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 102, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 1008, 
+            "byteOffset" : 104, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 672, 
+            "byteOffset" : 1112, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 1784, 
+            "uri" : "data:application/octet-stream;base64,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"
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Cylinder", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 1, 
+                        "TEXCOORD_0" : 2
+                    }, 
+                    "indices" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "Blade1", 
+            "rotation" : [
+                0.7071068286895752, 
+                0.0, 
+                -0.0, 
+                0.7071068286895752
+            ], 
+            "scale" : [
+                0.5, 
+                0.05000000074505806, 
+                0.5
+            ], 
+            "translation" : [
+                -1.4717196350488848e-08, 
+                1.7421101331710815, 
+                2.5249189405940342e-08
+            ]
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
